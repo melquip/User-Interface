@@ -64,3 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.page {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 74px;
+
+}
+
+header {
+	position: relative;
+	padding: 20px 0;
+}
+header .inline, .intro .inline {
+	vertical-align: middle;
+}
+nav a {
+	display: inline-block;
+	font-size: 14px;
+	padding: 19px 55px;
+	padding-left: 0;
+	margin-right: 5px;
+	color: grey;
+	text-decoration: none;
+}
+.logo {
+	padding-left: 48px; 
+	/* float:right */
+}
+
+.intro {
+	padding-top: 40px;
+	padding-bottom: 78px;
+	border-bottom: 1px solid black;
+}
+.intro .inline:first-child {
+	text-align: center;
+	padding-left: 40px;
+}
+.intro .inline:last-child {
+	padding-left: 58px;
+}
+.intro h1 {
+	margin-top: 16px;
+	font-size: 77px;
+	line-height: 75px;
+}
+.button {
+	display: inline-block;
+	border: 1px solid black;
+	font-size: 19px;
+	line-height: 32px;
+	padding: 0 40px;
+
+}
+
+.intro, .about {
+	font-size: 0;
+}
+
+
+.inline {
+	display: inline-block;
+}
+.inline.col2 {
+	max-width: 50%;
+	width: 50%;
+}
+.inline.col3 {
+	max-width: 33.3333%;
+	width: 33.3333%;
+}
+
+.about {
+	padding-bottom: 7px;
+	border-bottom: 1px solid black;
+}
+.about .inline {
+	padding-top: 39px;
+	padding-bottom: 38px;
+}
+
+h2, p {
+	font-size: 16px;
+}
+
+p {
+	line-height: 18px;
+}
+
+.about .inline.col2:nth-of-type(1) {
+	padding-right: 15px;
+}
+.about .inline.col2:nth-of-type(2) {
+	padding-left: 10px;
+}
+
+.about .inline.col3:nth-last-of-type(3) {
+	padding-right: 15px;
+}
+.about .inline.col3:nth-last-of-type(2) {
+	padding-left: 8px;
+}
+.about .inline.col3:nth-last-of-type(1){
+	padding-left: 14px;
+}
+
+
+.contact {
+	padding-top: 40px;
+}
+
+.contact .info {
+	padding-top: 22px;
+}
+
+
+footer {
+	padding: 50px 0 110px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 20px;
+}
